@@ -1,2 +1,2 @@
 # miscellaneous
-Notes in different topics
+Learning notes in different topics
