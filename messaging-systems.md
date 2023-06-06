@@ -33,9 +33,11 @@ Commuincation between micro-services or different parts in the application.
 
 
 **My Own Experience:**
-- AWS Redis:
+- **AWS Redis**
+- **RabbitMQ**
+---
 
-- Kafka: 
+- **Kafka**: 
 
 Kafka Broker: persists and replicates data.
 
