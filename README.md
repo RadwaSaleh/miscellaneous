@@ -1,3 +1,3 @@
 # miscellaneous
-Learning notes in different topics
-[Messaging Systems, ]
+Notes in different topics from my experience.
+[Messaging Systems, My Teams' Structures, ...]
