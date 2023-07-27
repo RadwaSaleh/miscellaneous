@@ -9,10 +9,10 @@ There are different Grant Types/flows to gain access token in OAuth 2.0, the mos
 Authorization Code - Postman
 
 - I hate this flow so much
-![auth-code-flow](https://github.com/RadwaSaleh/miscellaneous/blob/main/auth-sequence-auth-code.png)
+![auth-code-flow](https://github.com/RadwaSaleh/miscellaneous/blob/main/assets/auth-sequence-auth-code.png)
 - I have used it in: Postman, Cypress(javascript) and RestAssured(Java)
 - Using Postman is easy pease if you have the required information
-- import [this request](https://github.com/RadwaSaleh/miscellaneous/blob/main/postman-oauth2-keycloak.postman_collection.json) in postman to check the needed fields
+- import [this request](https://github.com/RadwaSaleh/miscellaneous/blob/main/assets/postman-oauth2-keycloak.postman_collection.json) in postman to check the needed fields
 - Also check out [this post](https://paulbares.medium.com/quick-tip-oauth2-with-keycloak-and-postman-cc7211b693a5)
 
 
