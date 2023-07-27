@@ -1,8 +1,8 @@
 There are different Grant Types/flows to gain access token in OAuth 2.0, the most common flows are:
 
-Authorization Code
-Client Credentials (Client Id and Client Secret)
-Password (Resource Owner Password)
+> Authorization Code
+> Client Credentials (Client Id and Client Secret)
+> Password (Resource Owner Password)
 
 Authorization Code
 
