@@ -14,7 +14,7 @@ jobs:
           account_sid: ${{ secrets.WPP_TWILIO_ACCOUNT_SID }}
           auth_token: ${{ secrets.WPP_TWILIO_AUTH_TOKEN }}
           to_whatsapp_no: ${{ secrets.WPP_TWILIO_TO_WHATSAPP_NO }}
-          message: "CI 👉🏻 Your message here"
+          message: "Thinking of you, Benni! 💦"
         uses: khaled-ibtikar/whatsapp-push-notify-action@master    
     
     
