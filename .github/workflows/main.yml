@@ -4,17 +4,17 @@ on:
     - cron: "29 1 * * *"
   workflow_dispatch:  
 jobs: 
-  prep:
+   messageWhatsApp:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v4
-      - name: install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pywhatkit
-      - name: execute py script
-        run: |
-          python main.py    
+      - uses: actions/checkout@master
+      - name: Notification WhatsApp
+        id: whatsapp-notify
+        env:
+          account_sid: ${{ secrets.twilio_account_sid }}
+          auth_token: ${{ secrets.twilio_auth_token }}
+          to_whatsapp_no: ${{ secrets.twilio_to_whatsapp_no }}
+          message: "CI 👉🏻 Your message here"
+        uses: khaled-ibtikar/whatsapp-push-notify-action@master    
     
     
