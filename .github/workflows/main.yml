@@ -2,6 +2,7 @@ name: after-midnight
 on:
   schedule:
     - cron: "29 1 * * *"
+  workflow_dispatch:  
 jobs: 
   prep:
     runs-on: ubuntu-latest
